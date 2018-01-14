@@ -7,7 +7,7 @@
 
 ### Javascript Debugging
 
-* Using `console.group("Group name")`, logging ..., and then `console.groupEnd()`
+* Using `console.group("Group name")`, logging... and then `console.groupEnd()`
 
 
 ### Kaggle CLI
