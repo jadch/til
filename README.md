@@ -3,6 +3,7 @@
 ### Bash
 
 * Removing a directory and its contents: `rm -rf [dirname]`
+* Moving a directory and its contents: `mv source/ target/`
 
 
 ### Javascript Debugging
