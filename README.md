@@ -4,6 +4,7 @@
 
 * Removing a directory and its contents: `rm -rf [dirname]`
 * Moving a directory and its contents: `mv source/ target/`
+* To rename a single file just use `mv`!
 
 
 ### Javascript Debugging
