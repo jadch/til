@@ -5,6 +5,7 @@
 * Removing a directory and its contents: `rm -rf [dirname]`
 * Moving a directory and its contents: `mv source/ target/`
 * Copying a directory and its contents: `cp -r source/ target/` 
+* Printing a file line by line:̀ `cat [file] | more` 
 * To rename a single file just use `mv`!
 
 
