@@ -14,6 +14,12 @@
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
 
 
+### Useful Flow Types
+
+* Object examples:
+  * `{ [string]: Array<string>}` 
+
+
 ### Kaggle CLI
 
 * Configuring the CLI: `kg config -g -u [username] -p [password] -c [competition]`
