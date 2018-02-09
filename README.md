@@ -14,8 +14,9 @@
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
 
 
-### Useful Flow Types
+### Flow
 
+* Ignore an error on the next line with: `// $FlowFixMe`
 * Object examples:
   * `{ [string]: Array<string>}` 
 
