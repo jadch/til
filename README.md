@@ -8,6 +8,11 @@
 * Printing a file line by line:̀ `cat [file] | more` 
 * To rename a single file just use `mv`!
 
+### Git
+
+* Comparing the last two commits: `git diff HEAD^ HEAD`
+* Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
+
 
 ### Javascript Debugging
 
