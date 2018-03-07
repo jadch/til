@@ -25,6 +25,9 @@
 * Object examples:
   * `{ [string]: Array<string>}` 
 
+### Eslint
+
+* Ignoring a rule in a file (for example max-lines): `/* eslint max-lines: 1 */`
 
 ### Kaggle CLI
 
