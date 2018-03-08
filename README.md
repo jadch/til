@@ -22,6 +22,7 @@
 ### Flow
 
 * Ignore an error on the next line with: `// $FlowFixMe`
+* Doing an enum in Flow: `"success" | "fail"`
 * Object examples:
   * `{ [string]: Array<string>}` 
 
