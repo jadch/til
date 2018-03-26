@@ -12,6 +12,7 @@
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
 * Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
+* Copying the content of a branch to a new one: `git checkout -b new_branch old_branch`
 
 
 ### Javascript Debugging
