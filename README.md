@@ -27,7 +27,7 @@
 * Doing an enum in Flow: `"success" | "fail"`
 * Enum as object keys: `{ ["success" | "fail"]: true }`
 * Object examples:
-  * `{ [string]: Array<string>}` 
+  * `{ [string]: Array<string> }` 
 
 ### Eslint
 
