@@ -8,6 +8,12 @@
 * Printing a file line by line:̀ `cat [file] | more` 
 * To rename a single file just use `mv`!
 
+
+### npm
+
+* Checking which version of npm is running: `npm -v`
+* Going back to a previous version of npm (for example 5): `npm install -g npm@5`
+
 ### Git
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
