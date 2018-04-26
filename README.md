@@ -21,7 +21,7 @@
 * Listing all branches: `git branch -r`
 * Copying the content of a branch to a new one: `git checkout -b new_branch old_branch`
 * Going back to head while saving local modifications: `git stash`
-* Undoing a `git stash`: `git stash pop`
+* Undoing a `git stash` with: `git stash pop`
 
 
 ### Javascript Debugging
