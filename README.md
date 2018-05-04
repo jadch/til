@@ -6,7 +6,7 @@
 * Moving a directory and its contents: `mv source/ target/`
 * Copying a directory and its contents: `cp -r source/ target/` 
 * To rename a single file just use `mv`!
-* Printing a file line by line:̀ `cat [file] | more` 
+* Printing a file line by line: `cat [file] | more` 
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
 
 ### npm
