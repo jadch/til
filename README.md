@@ -22,6 +22,7 @@
 * Copying the content of a branch to a new one: `git checkout -b new_branch old_branch`
 * Going back to head while saving local modifications: `git stash`
 * Undoing a `git stash` with: `git stash pop`
+* Merging two branches: `git checkout` the branch you want to merge to, then `git merge [branch to copy from]`
 
 
 ### Javascript Debugging
