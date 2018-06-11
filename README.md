@@ -19,6 +19,8 @@
 * Comparing the last two commits: `git diff HEAD^ HEAD`
 * Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
 * Listing all branches: `git branch -r`
+* Deleting a branch locally: `git branch -d [branch]`
+* Removing a remote branch (be careful!!): ̀`git push origin --delete [branch]` 
 * Copying the content of a branch to a new one: `git checkout -b new_branch old_branch`
 * Going back to head while saving local modifications: `git stash`
 * Undoing a `git stash` with: `git stash pop`
