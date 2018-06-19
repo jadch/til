@@ -18,6 +18,7 @@
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
 * Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
+* Reverting a single file to the last commit: `git checkout [filename]`
 * Listing all branches: `git branch -r`
 * Deleting a branch locally: `git branch -d [branch]`
 * Removing a remote branch (be careful!!): `git push origin --delete [branch]` 
