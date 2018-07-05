@@ -47,6 +47,8 @@
 
 * Ignoring a rule in a file (for example max-lines): `/* eslint max-lines: 1 */`
 * Ignoring an error in the next line: `/* eslint-disable-next-line id-length */`
+* Disabling eslint for the whole file: `/* eslint-disable */`
+
 
 ### Kaggle CLI
 
