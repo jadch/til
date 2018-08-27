@@ -33,6 +33,8 @@
 ### Javascript Debugging
 
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
+* A convenient way to print objects is `console.dir(object, { depth: null })`
+
 
 
 ### Flow
