@@ -23,6 +23,7 @@
 * Fetch + rebase: `git fetch --all && git rebase -v`
 * Adding a remote origin: `git remote add origin [url]`
 * Listing all branches: `git branch -r`
+* Listing all branches startign with the ones with the most recent commits: `git branch --sort=-committerdate`
 * Deleting a branch locally: `git branch -d [branch]`
 * Removing a remote branch (be careful!!): `git push origin --delete [branch]` 
 * Copying the content of a branch to a new one: `git checkout -b new_branch old_branch`
