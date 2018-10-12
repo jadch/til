@@ -18,6 +18,7 @@
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
 * Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
+* Specifying the number of lines to show around each diff: `git diff HEAD^ HEAD -U[# of lines]`
 * Ignoring a file (like package-lock.json) from a git diff: `git diff HEAD^ HEAD -- . ":(exclude)package-lock.json"`
 * Reverting a single file to the last commit: `git checkout [filename]`
 * Fetch + rebase: `git fetch --all && git rebase -v`
