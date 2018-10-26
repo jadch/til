@@ -14,6 +14,11 @@
 * Checking which version of npm is running: `npm -v`
 * Going back to a previous version of npm *(for example npm 5)*: `npm install -g npm@5`
 
+### Node
+
+* Getting the path of the current directory: `const DIR_PATH = path.resolve(__dirname);`
+* Going from a relative to an absolute path: `path.resolve(DIR_PATH, '../../relative/path')`
+
 ### Git
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
