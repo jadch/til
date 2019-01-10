@@ -71,7 +71,14 @@
 
 #### Cloudwatch Insights
 
-* Basic query:
+* Basic query: Fetch the 20 most recent logs
+```
+fields @timestamp, @message
+| sort @timestamp desc
+| limit 20
+```
+
+* Basic query: Fetch the 20 most recent logs that contain a certain pattern ("error:")
 ```
 filter @message like "error:"
 | sort @timestamp desc
