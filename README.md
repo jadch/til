@@ -65,3 +65,15 @@
 
 * Configuring the CLI: `kg config -g -u [username] -p [password] -c [competition]`
 * Downloading competition data: `kg download`
+
+
+### AWS
+
+#### Cloudwatch Insights
+
+* Basic query:
+```
+filter @message like "error:"
+| sort @timestamp desc
+| limit 20
+```
