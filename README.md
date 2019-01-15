@@ -85,7 +85,7 @@ filter @message like "error:"
 | limit 20
 ```
 
-* Basic query: Fetch the 20 most recent logs that match a regex or contain a special charachter ("#500")
+* Basic query: Fetch the 20 most recent logs that match a regex or contain a special character ("#500")
 ```
 fields @timestamp, @message
 | filter @message like /#500/
