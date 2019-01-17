@@ -8,6 +8,7 @@
 * To rename a single file just use `mv`!
 * Printing a file line by line: `cat [file] | more` 
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
+* Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
 
 ### npm
 
