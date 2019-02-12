@@ -70,6 +70,12 @@
 
 ### AWS
 
+#### AWS CLI
+(PS: These commands are not guaranteed to be up to date, but I juste put them here to find them easily
+
+* Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID]`
+
+
 #### Cloudwatch Insights
 
 * Basic query: Fetch the 20 most recent logs
