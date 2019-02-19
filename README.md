@@ -10,6 +10,11 @@
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
 
+#### processes
+* Listing all running processes: `ps aux`
+* Searching for a process that matches a string: `ps aux | grep [search string]`
+* Killing a process: `kill [process ID]`
+
 ### npm
 
 * Checking which version of npm is running: `npm -v`
