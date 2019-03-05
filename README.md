@@ -9,6 +9,8 @@
 * Printing a file line by line: `cat [file] | more` 
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
+* finding files by name in the current directory: `find . -name [filename]`
+* finding files by name in a directory: `find [directory] -name [filename]`
 
 #### processes
 * Listing all running processes: `ps aux`
