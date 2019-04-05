@@ -70,18 +70,13 @@
 * Disabling eslint for the whole file: `/* eslint-disable */`
 
 
-### Kaggle CLI
-
-* Configuring the CLI: `kg config -g -u [username] -p [password] -c [competition]`
-* Downloading competition data: `kg download`
-
-
 ### AWS
 
 #### AWS CLI
-(PS: These commands are not guaranteed to be up to date, but I juste put them here to find them easily
+(PS: These commands are not guaranteed to be up to date, but I just put them here to find them easily
 
-* Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID]`
+* Listing the ECS tasks of a cluster: `aws ecs list-tasks --cluster [cluster]`
+* Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID or list of IDs separated by a space]`
 
 
 #### Cloudwatch Insights
