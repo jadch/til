@@ -24,6 +24,7 @@
 
 ### Node
 
+* Updating and managing multiple versions of Node: check `https://github.com/creationix/nvm`
 * Getting the path of the current directory: `const DIR_PATH = path.resolve(__dirname);`
 * Going from a relative to an absolute path: `path.resolve(DIR_PATH, '../../relative/path')`
 
