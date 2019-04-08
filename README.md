@@ -11,6 +11,7 @@
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
 * finding files by name in the current directory: `find . -name [filename]`
 * finding files by name in a directory: `find [directory] -name [filename]`
+* Parsing JSON with bash: check the jq tool `https://stedolan.github.io/jq/` !
 
 #### processes
 * Listing all running processes: `ps aux`
