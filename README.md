@@ -11,6 +11,10 @@
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
 * finding files by name in the current directory: `find . -name [filename]`
 * finding files by name in a directory: `find [directory] -name [filename]`
+
+#### scripts
+* Printing a variable: `echo "$variable"`
+* Storing the output of a command in a variable : `variable="$(command)"`
 * Parsing JSON with bash: check the jq tool `https://stedolan.github.io/jq/` !
 
 #### processes
