@@ -76,6 +76,14 @@
 * Disabling eslint for the whole file: `/* eslint-disable */`
 
 
+### MongoDB Shell
+
+* Launching the mongo shell : `mongo`
+* Show database currently in use: `db`
+* Showing all databases: `show dbs`
+* Switching databases: `use [database]`
+
+
 ### AWS
 
 #### AWS CLI
