@@ -52,6 +52,7 @@
 * Undoing a `git stash` with: `git stash pop`
 * Merging two branches: `git checkout` the branch you want to merge to, then `git merge [branch to copy from]`
 * Undoing the last commit ONLY if not pushed yet. Your changes will still be kept in the filesystem: `git reset HEAD@{1}`
+* Untracking a file that has already been commited, after adding it to .gitignore: `git rm --cached [filename]`
 
 
 ### Javascript Debugging
