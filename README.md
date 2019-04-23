@@ -110,6 +110,13 @@ filter @message like "error:"
 | limit 20
 ```
 
+* Basic query: Fetch the 20 most recent logs the pattern A or B
+```
+filter @message like "A" or @message like "B"
+| sort @timestamp desc
+| limit 20
+```
+
 * Basic query: Fetch the 20 most recent logs that match a regex or contain a special character ("#500")
 ```
 fields @timestamp, @message
