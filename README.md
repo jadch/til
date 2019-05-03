@@ -26,6 +26,7 @@
 
 * Checking which version of npm is running: `npm -v`
 * Going back to a previous version of npm *(for example npm 5)*: `npm install -g npm@5`
+* Listing all globally installed modules: `npm ls -g --depth 0`
 
 ### Node
 
