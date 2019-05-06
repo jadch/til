@@ -21,6 +21,7 @@
 * Listing all running processes: `ps aux`
 * Searching for a process that matches a string: `ps aux | grep [search string]`
 * Killing a process: `kill [process ID]`
+* Killing all processes which match a name: `pkill [name]`
 
 ### npm
 
