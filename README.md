@@ -23,15 +23,20 @@
 * Killing a process: `kill [process ID]`
 * Killing all processes which match a name: `pkill [name]`
 
+### Node
+
 ### npm
 
 * Checking which version of npm is running: `npm -v`
 * Going back to a previous version of npm *(for example npm 5)*: `npm install -g npm@5`
 * Listing all globally installed modules: `npm ls -g --depth 0`
 
-### Node
-
+#### nvm
+* Listing installed Node versions: `nvm ls`
+* Using one of the installed Node versions: `nvm use [version]`
 * Updating and managing multiple versions of Node: check `https://github.com/creationix/nvm`
+
+#### Paths and Dirs
 * Getting the path of the current directory: `const DIR_PATH = path.resolve(__dirname);`
 * Going from a relative to an absolute path: `path.resolve(DIR_PATH, '../../relative/path')`
 
