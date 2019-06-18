@@ -10,7 +10,9 @@
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
 * finding files by name in the current directory: `find . -name [filename]`
-* finding files by name in a directory: `find [directory] -name [filename]`
+* finding files by name in a directory, with depth: `find [directory] -name [filename]`
+* finding files by name in a directory: `find [directory] -maxdepth [depth] -name [*filename*] -print`
+* searching files for a string: `grep -rnw [directory] -e [pattern]`
 
 #### scripts
 * Printing a variable: `echo "$variable"`
