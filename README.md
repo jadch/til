@@ -22,9 +22,11 @@
 
 #### processes
 * Listing all running processes: `ps aux`
+* Listing open node files and their processes: `lsof -i | grep node`
 * Searching for a process that matches a string: `ps aux | grep [search string]`
 * Killing a process: `kill [process ID]`
 * Killing all processes which match a name: `pkill [name]`
+
 
 ### Node
 
