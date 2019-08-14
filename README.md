@@ -26,6 +26,7 @@
 * Searching for a process that matches a string: `ps aux | grep [search string]`
 * Killing a process: `kill [process ID]`
 * Killing all processes which match a name: `pkill [name]`
+* Getting the name of the command that created a process: `ps -o comm= -p [PID]` 
 
 
 ### Node
