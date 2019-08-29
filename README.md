@@ -1,5 +1,10 @@
 # TIL
 
+### Ubuntu (Linux)
+
+* Checking the current linux kernel version: `uname -r`
+
+
 ### Bash
 
 * Removing a directory and its contents: `rm -rf [dirname]`
