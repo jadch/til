@@ -12,8 +12,8 @@
 * finding files by name in the current directory: `find . -name [filename]`
 * finding files by name in a directory, with depth: `find [directory] -name [filename]`
 * finding files by name in a directory: `find [directory] -maxdepth [depth] -name [*filename*] -print`
-* searching files for a string: `grep -rnw [directory] -e [pattern]`
-* searching files for a string (additional options): `grep -rnw [directory] -A [# of lines to show before match] -B [# of line after]-e [pattern]`
+* searching files for a string or regex: `grep '[regex]' [directory] -rnw`
+* searching files for a string (additional options): `grep '[regex]' [directory] -rnw -A [# of lines to show before match] -B [# of line after]`
 
 #### scripts
 * Printing a variable: `echo "$variable"`
