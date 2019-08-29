@@ -1,6 +1,6 @@
 # TIL
 
-### Ubuntu (Linux)
+### Ubuntu (or more generally, Linux)
 
 * Checking the current linux kernel version: `uname -r`
 
