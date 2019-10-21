@@ -32,7 +32,7 @@
 * Killing a process: `kill [process ID]`
 * Killing all processes which match a name: `pkill [name]`
 * Getting the name of the command that created a process: `ps -o comm= -p [PID]` 
-
+* Getting some info on a process: ` ps -Flww -p [PID]`
 
 ### Node
 
