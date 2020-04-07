@@ -55,6 +55,7 @@
 
 * Comparing the last two commits: `git diff HEAD^ HEAD`
 * Comparing the last two commits and only showing changed filenames: `git diff HEAD^ HEAD --name-only`
+* Comparing the last commit with the staged differences: `git diff --cached`
 * Limiting the diff to one file: `git diff HEAD^ HEAD -- [filename]`
 * Specifying the number of lines to show around each diff: `git diff HEAD^ HEAD -U[# of lines]`
 * Ignoring a file (like package-lock.json) from a git diff: `git diff HEAD^ HEAD -- . ":(exclude)package-lock.json"`
