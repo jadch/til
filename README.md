@@ -80,6 +80,10 @@
 * A convenient way to print objects is `console.dir(object, { depth: null })`
 
 
+### Docker
+* Displaying system-wide info: `docker info`
+* Displaying docker version: `docker -v`
+
 
 ### Flow
 
