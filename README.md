@@ -3,7 +3,7 @@
 ### Ubuntu (or more generally, Linux)
 
 * Checking the current linux kernel version: `uname -r`
-* Checking out which  distribution and version of linux you're running: `cat etc/issue`
+* Checking out which  distribution and version of linux you're running: `/cat etc/issue`
 
 
 ### Bash
