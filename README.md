@@ -107,6 +107,18 @@ Here is the format of a select statement: `SELECT column or columns FROM tablena
   * `<=	Less than or equal`
   * `<>	Not equal to`
 
+### Creating tables
+
+Here is the format of a create statement:
+```
+create table [tablename]
+(
+ [column 1] [data type] [optional constraint],
+ ....
+)
+```
+
+
 ### Javascript Debugging
 
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
