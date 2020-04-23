@@ -118,6 +118,26 @@ create table [tablename]
 )
 ```
 
+Here are the most common Data types:
+ * `char(size)`	: Fixed-length character string. Size is specified in parenthesis. Max 255 bytes.
+ * `varchar(size)`	: Variable-length character string. Max size is specified in parenthesis.
+ * `number(size)`	: Number value with a max number of column digits specified in parenthesis.
+ * `date`	: Date value
+ * `number(size,d)`	: Number value with a maximum number of digits of "size" total, with a maximum number of "d" digits to the right of the decimal.
+
+### Inserting
+
+Here is the format of an insert statement:
+```
+insert into [tablename]
+ (first_column, ... last_column)
+ values (first_value, ... last_value);
+```
+
+### Updating
+
+
+
 
 ### Javascript Debugging
 
