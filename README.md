@@ -90,7 +90,7 @@
 * Checking which version is running: `postgres -V`
 
 ### SQL
-* [SQL](./sql/md)
+* [SQL](./sql.md)
 
 
 ### Javascript Debugging
