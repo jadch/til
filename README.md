@@ -79,13 +79,19 @@
 * Untracking a file that has already been commited, after adding it to .gitignore: `git rm --cached [filename]`
 
 
-### PostgreSQL
-* Checking which version is running: `postgres -V`
-
 ### Docker
 
 * Displaying system-wide info: `docker info`
 * Displaying docker version: `docker -v`
+
+
+### PostgreSQL
+
+* Checking which version is running: `postgres -V`
+
+### SQL
+* [SQL](./sql/md)
+
 
 ### Javascript Debugging
 
