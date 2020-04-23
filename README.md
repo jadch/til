@@ -89,9 +89,17 @@
 
 * Checking which version is running: `postgres -V`
 
-### SQL
+## SQL
 * [SQL](./sql.md)
 
+### Selection
+
+Here is the format of a select statement: `SELECT column or columns FROM tablename WHERE optional conditions`
+
+* selecting all columns of all rows of a table: `SELECT * from [tablename]`
+* selecting all columns of all rows where [column] starts with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '[characters]%'`
+* selecting all columns of all rows where [column] contains some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '%[characters]%'`
+* selecting all columns of all rows where [column] ends with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '*[characters]'`
 
 ### Javascript Debugging
 
