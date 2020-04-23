@@ -99,21 +99,13 @@ Here is the format of a select statement: `SELECT column or columns FROM tablena
 * selecting all columns of all rows of a table: `SELECT * from [tablename]`
 * selecting all columns of all rows where [column] starts with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '[characters]%'`
 * selecting all columns of all rows where [column] contains some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '%[characters]%'`
-* selecting all columns of all rows where [column] ends with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '*[characters]'`
+* selecting all columns of all rows where [column] ends with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '%[characters]'`
+
 
 ### Javascript Debugging
 
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
 * A convenient way to print objects is `console.dir(object, { depth: null })`
-
-
-### Flow
-
-* Ignore an error on the next line with: `// $FlowFixMe`
-* Doing an enum in Flow: `"success" | "fail"`
-* Enum as object keys: `{ ["success" | "fail"]: true }`
-* Object examples:
-  * `{ [string]: Array<string> }` 
 
 ### Eslint
 
@@ -121,13 +113,6 @@ Here is the format of a select statement: `SELECT column or columns FROM tablena
 * Ignoring an error in the next line: `/* eslint-disable-next-line id-length */`
 * Disabling eslint for the whole file: `/* eslint-disable */`
 
-
-### MongoDB Shell
-
-* Launching the mongo shell : `mongo`
-* Show database currently in use: `db`
-* Showing all databases: `show dbs`
-* Switching databases: `use [database]`
 
 ### Conda
 
@@ -150,36 +135,3 @@ If running a Jupyter Notebook, be sure to run the following commands from within
 
 * Listing the ECS tasks of a cluster: `aws ecs list-tasks --cluster [cluster]`
 * Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID or list of IDs separated by a space]`
-
-
-#### Cloudwatch Insights
-
-* Basic query: Fetch the 20 most recent logs
-```
-fields @timestamp, @message
-| sort @timestamp desc
-| limit 20
-```
-
-* Basic query: Fetch the 20 most recent logs that contain a certain pattern ("error:")
-```
-filter @message like "error:"
-| sort @timestamp desc
-| limit 20
-```
-
-* Basic query: Fetch the 20 most recent logs the pattern A or B
-```
-filter @message like "A" or @message like "B"
-| sort @timestamp desc
-| limit 20
-```
-
-* Basic query: Fetch the 20 most recent logs that match a regex or contain a special character ("#500")
-```
-fields @timestamp, @message
-| filter @message like /#500/
-| sort @timestamp desc
-| limit 20
-```
-
