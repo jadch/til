@@ -4,6 +4,8 @@
 
 * Checking the current linux kernel version: `uname -r`
 * Checking out which  distribution and version of linux you're running: `cat /etc/issue`
+* Display shared dependencies of a binary: `ldd [binary]`
+* Running a command (or interactive shell) with a special root directory: `chroot [new root] [command]`
 
 
 ### Bash
@@ -12,6 +14,8 @@
 * Moving a directory and its contents: `mv source/ target/`
 * Copying a directory and its contents: `cp -r source/ target/` 
 * To rename a single file just use `mv`!
+* Printing a message to the console: `echo “[my message]”`
+* Writing to a text file: `echo “[my message]” > [my .txt file]`
 * Printing a file line by line: `cat [file] | more` 
 * Printing the first few lines of a file: `head [file]` or `head [file] -n [number of lines]`
 * Writing stdout and stderr outputs to a file: `[command that generates output] &> [filename.txt]`
@@ -75,15 +79,18 @@
 * Untracking a file that has already been commited, after adding it to .gitignore: `git rm --cached [filename]`
 
 
+### PostgreSQL
+* Checking which version is running: `postgres -V`
+
+### Docker
+
+* Displaying system-wide info: `docker info`
+* Displaying docker version: `docker -v`
+
 ### Javascript Debugging
 
 * Using `console.group("Group name")`, logging... and then `console.groupEnd()`
 * A convenient way to print objects is `console.dir(object, { depth: null })`
-
-
-### Docker
-* Displaying system-wide info: `docker info`
-* Displaying docker version: `docker -v`
 
 
 ### Flow
