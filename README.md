@@ -99,7 +99,13 @@ Here is the format of a select statement: `SELECT column or columns FROM tablena
 * selecting all columns of all rows where [column] starts with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '[characters]%'`
 * selecting all columns of all rows where [column] contains some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '%[characters]%'`
 * selecting all columns of all rows where [column] ends with some [characters]: `SELECT * from [tablename] WHERE [column] LIKE '%[characters]'`
-
+* Other conditional selections in SQL:
+  * `=	Equal`
+  * `>	Greater than`
+  * `<	Less than`
+  * `>=	Greater than or equal`
+  * `<=	Less than or equal`
+  * `<>	Not equal to`
 
 ### Javascript Debugging
 
