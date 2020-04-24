@@ -4,8 +4,6 @@
 
 * Checking the current linux kernel version: `uname -r`
 * Checking out which  distribution and version of linux you're running: `cat /etc/issue`
-* Display shared dependencies of a binary: `ldd [binary]`
-* Running a command (or interactive shell) with a special root directory: `chroot [new root] [command]`
 
 
 ### Bash
@@ -24,6 +22,8 @@
 * finding files by name in a directory: `find [directory] -maxdepth [depth] -name [*filename*] -print`
 * searching files for a string or regex: `grep '[regex]' [directory] -rnw`
 * searching files for a string (additional options): `grep '[regex]' [directory] -rnw -A [# of lines to show before match] -B [# of line after]`
+* Display shared dependencies of a binary: `ldd [binary]`
+* Running a command (or interactive shell) with a special root directory: `chroot [new root] [command]`
 
 #### scripts
 * Printing a variable: `echo "$variable"`
