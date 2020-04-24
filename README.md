@@ -4,6 +4,7 @@
 
 * Checking the current linux kernel version: `uname -r`
 * Checking out which  distribution and version of linux you're running: `cat /etc/issue`
+* Running a program with some namespaces unshared from parent: `unshare [options]` (check [options here](http://man7.org/linux/man-pages/man1/unshare.1.html)) 
 
 
 ### Bash
