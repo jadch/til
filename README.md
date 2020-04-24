@@ -84,6 +84,9 @@
 
 * Displaying system-wide info: `docker info`
 * Displaying docker version: `docker -v`
+* List running containers: `docker ps`
+* Pulling an image (or a repository) from a registry: `docker pull [name]`
+* Checking which images you have locally: `docker images`
 
 
 ### PostgreSQL
