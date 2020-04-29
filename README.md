@@ -94,6 +94,10 @@
 ### PostgreSQL
 
 * Checking which version is running: `postgres -V`
+* Launching the postgresql CLI: `psql`
+
+The following commands should all be typed inside the PostgreSQL server:
+* Listing the defined databases on the server: `\l`
 
 ## SQL
 
