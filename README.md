@@ -94,12 +94,18 @@
 * Displaying system-wide info: `docker info`
 * Displaying docker version: `docker -v`
 * Getting docs on a command (including options): `docker [command] --help`
-* List running containers: `docker ps`
-* Pulling an image (or a repository) from a registry: `docker pull [name]`
 * Checking which images you have locally: `docker images`
-* Deleting a docker image: `docker image rm [name]`
+* Pulling an image (or a repository) from a registry: `docker pull [name]`
 * Running a docker image: `docker run --interactive --tty [image name]`
-
+* Deleting a docker image: `docker image rm [name]`
+* Checking how a docker image has changed over time: `docker history [image id]`
+* List running containers: `docker ps`
+* Dumping some info on a particular image (created at, ENV variables, etc...): `docker inspect [container ID or image ID]`
+* Pausing all processes in a container: `docker pause [container ID]`
+* Unpausing the processes in a container: `docker unpause [container ID]`
+* Killing a container: `docker kill [container ID]`
+* Executing a command on a running container: `docker exec [container ID] [command, like "ps aux"]`
+* Checking the logs of a running container: `docker logs [container ID]`
 
 ### PostgreSQL
 
