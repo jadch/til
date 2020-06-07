@@ -1,6 +1,15 @@
 # TIL
 
-### Ubuntu (or more generally, Linux)
+
+- [Bash](#bash)
+- [Docker](#docker)
+- [Node](#node)
+  - [npm](#npm)
+- [Git](#git)
+- [SQL](#sql)
+
+
+### Ubuntu (or more generally Linux)
 
 * Checking the current linux kernel version: `uname -r`
 * Checking out which  distribution and version of linux you're running: `cat /etc/issue`
