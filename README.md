@@ -7,6 +7,7 @@
   - [npm](#npm)
 - [Git](#git)
 - [SQL](#sql)
+- [Python And Jupyter](#python-and-jupyter)
 
 
 ### Ubuntu (or more generally Linux)
@@ -177,6 +178,17 @@ insert into [tablename]
 * Disabling eslint for the whole file: `/* eslint-disable */`
 
 
+### AWS
+
+#### AWS CLI
+(PS: These commands are not guaranteed to be up to date, but I just put them here to find them easily
+
+* Listing the ECS tasks of a cluster: `aws ecs list-tasks --cluster [cluster]`
+* Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID or list of IDs separated by a space]`
+
+
+## Python and Jupyter
+
 ### Conda
 
 If running a Jupyter Notebook, be sure to run the following commands from within the Jupyter terminal
@@ -190,11 +202,3 @@ If running a Jupyter Notebook, be sure to run the following commands from within
 
 * Checking Jupyter version: `jupyter notebook --version`
 * Upgrading Jupyter if using Anaconda: `conda update jupyter`
-
-### AWS
-
-#### AWS CLI
-(PS: These commands are not guaranteed to be up to date, but I just put them here to find them easily
-
-* Listing the ECS tasks of a cluster: `aws ecs list-tasks --cluster [cluster]`
-* Describing an ECS task: `aws ecs describe-tasks --cluster [cluster] --tasks [task ID or list of IDs separated by a space]`
