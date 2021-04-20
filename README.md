@@ -97,7 +97,7 @@
 * Getting docs on a command (including options): `docker [command] --help`
 * Checking which images you have locally: `docker images`
 * Pulling an image (or a repository) from a registry: `docker pull [name]`
-* Running a docker image: `docker run --interactive --tty [image name]`
+* Running a docker image: `docker run --interactive --tty [image name]` or `docker run -it [image name] sh`
 * Deleting a docker image: `docker image rm [name]`
 * Checking how a docker image has changed over time: `docker history [image id]`
 * List running containers: `docker ps`
