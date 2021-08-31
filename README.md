@@ -197,7 +197,8 @@ If running a Jupyter Notebook, be sure to run the following commands from within
 * Updating Conda package: `conda update [package]`
 * Checking the list of all Conda packages: `conda list`
 * Upgrading Conda version: `conda update conda` and then `conda update anaconda` to update Anaconda packages
-* Upgrading mamba: `mamba update -n base mamba`
+* Checking Mamba version: `mamba -V`
+* Upgrading Mamba: `mamba update -n base mamba`
 
 ### Jupyter
 
