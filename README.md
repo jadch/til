@@ -5,6 +5,7 @@
 - [Docker](#docker)
 - [Node](#node)
   - [npm](#npm)
+  - [nx](#nx)
 - [Git](#git)
 - [SQL](#sql)
 - [Python And Jupyter](#python-and-jupyter)
@@ -57,6 +58,10 @@
 * Checking which version of npm is running: `npm -v`
 * Going back to a previous version of npm *(for example npm 5)*: `npm install -g npm@5`
 * Listing all globally installed modules: `npm ls -g --depth 0`
+
+#### nx
+
+* Generating dependency graph: `yarn nx dep-graph`
 
 #### nvm
 * Listing installed Node versions: `nvm ls`
